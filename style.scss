@@ -70,6 +70,11 @@ button {
     border: none;
     box-shadow: 0px 4px 15px -2px rgba(0,0,0,0.75);
 }
+button:hover {
+    background: linear-gradient(218deg, rgba(177,78,187,1) 0%, rgba(103,75,175,1) 100%);
+    border: -1px solid white;
+    color: white;
+}
 
 
 // Footer
@@ -85,6 +90,10 @@ button {
     display: grid; place-items: center;
     border: 1px solid white;
     border-radius: 50%;
+}
+.icons .fab:hover {
+    background-color: white;
+    color: var(--primary-color);
 }
 
 .attribution {
